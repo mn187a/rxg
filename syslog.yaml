@@ -1,7 +1,7 @@
 RemoteSyslogServer:
-- name: AT&T Remote Syslog
+- name: Remote Syslog
   host: 10.4.12.55
-  port: 5088
+  port: 454
   protocol: TLS
   ssl_key_chain: <<EST Client Cert>>
   send_all_logs: false
