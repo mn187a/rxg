@@ -1,0 +1,30 @@
+RemoteSyslogServer:
+- name: AT&T Remote Syslog
+  host: 10.4.12.55
+  port: 5088
+  protocol: TLS
+  ssl_key_chain: <<EST Client Cert>>
+  send_all_logs: false
+  # log level for any facility can be set to one of the following:
+  # null -  Do Not Send  (this is the default if no log level is set for a facility)
+  # 0    -  Emergency
+  # 1    -  Alert
+  # 2    -  Critical
+  # 3    -  Error
+  # 4    -  Warning
+  # 5    -  Notice
+  # 6    -  Informational
+  # 7    -  Debug
+  facility_auth: 6
+  facility_console: null
+  facility_daemon: null
+  facility_local0: null
+  facility_local1: null
+  facility_local2: null
+  facility_local3: null
+  facility_local4: null
+  facility_local5: null
+  facility_local6: null
+  facility_local7: null
+  facility_security: 5
+  facility_user: 5
