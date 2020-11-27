@@ -1,5 +1,3 @@
-# testing with Rao
-
 RemoteSyslogServer:
 - name: Remote Syslog
   host: 10.4.12.55
