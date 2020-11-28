@@ -1,8 +1,7 @@
-##This is a test downlaod
 
 RemoteSyslogServer:
 - name: Remote Syslog
-  host: 10.4.12.55
+  host: 10.4.12.1
   port: 454
   protocol: TLS
   ssl_key_chain: <<EST Client Cert>>
