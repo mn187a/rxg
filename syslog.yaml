@@ -4,7 +4,7 @@ RemoteSyslogServer:
   host: 10.4.12.121
   port: 454
   protocol: TLS
-  ssl_key_chain: <<EST Client Cert>>
+  ssl_key_chain: rgn-aus-e003.aus.wayport.net
   send_all_logs: false
   # log level for any facility can be set to one of the following:
   # null -  Do Not Send  (this is the default if no log level is set for a facility)
