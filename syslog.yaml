@@ -1,7 +1,7 @@
 
 RemoteSyslogServer:
 - name: Remote Syslog
-  host: 10.4.12.1
+  host: 10.4.12.121
   port: 454
   protocol: TLS
   ssl_key_chain: <<EST Client Cert>>
