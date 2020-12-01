@@ -1,7 +1,7 @@
 
 RemoteSyslogServer:
 - name: Remote Syslog
-  host: 10.4.12.215
+  host: 10.4.12.125
   port: 454
   protocol: TLS
   ssl_key_chain: rgn-aus-e003.aus.wayport.net
